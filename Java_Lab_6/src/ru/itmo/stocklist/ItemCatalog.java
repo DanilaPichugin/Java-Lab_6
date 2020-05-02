@@ -1,6 +1,6 @@
-package stocklist;
+package ru.itmo.stocklist;
 
-import exceptions.ItemAlreadyExistsException;
+import ru.itmo.exceptions.ItemAlreadyExistsException;
 
 import java.util.ArrayList;
 import java.util.HashMap;

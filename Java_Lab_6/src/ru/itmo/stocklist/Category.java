@@ -1,4 +1,4 @@
-package stocklist;
+package ru.itmo.stocklist;
 
 public enum Category {
     FOOD,

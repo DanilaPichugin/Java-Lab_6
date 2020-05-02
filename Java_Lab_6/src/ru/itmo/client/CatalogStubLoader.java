@@ -1,12 +1,12 @@
-package client;
+package ru.itmo.client;
 
-import exceptions.CatalogLoadException;
-import exceptions.ItemAlreadyExistsException;
-import stocklist.*;
+import ru.itmo.exceptions.CatalogLoadException;
+import ru.itmo.exceptions.ItemAlreadyExistsException;
+import ru.itmo.stocklist.*;
 
 import java.util.Date;
 
-public class CatalogStubLoader implements CatalogLoader  {
+public class CatalogStubLoader implements CatalogLoader {
     @Override
     public void load(ItemCatalog catalog) throws CatalogLoadException {
         try{

@@ -1,4 +1,4 @@
-package sync;
+package ru.itmo.sync;
 
 public class U1901Thread extends Thread {
     U1901Bank bankWork;

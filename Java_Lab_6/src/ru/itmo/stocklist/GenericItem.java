@@ -1,4 +1,4 @@
-package stocklist;
+package ru.itmo.stocklist;
 
 import java.util.Objects;
 
@@ -17,18 +17,18 @@ public class GenericItem implements Cloneable{
         this.setCategory(category);
     }
     public GenericItem(String name, float price, Category category){
-        //this(stocklist.GenericItem.currentID, name, price, category);
-        //ID = stocklist.GenericItem.currentID++;
+        //this(ru.itmo.stocklist.GenericItem.currentID, name, price, category);
+        //ID = ru.itmo.stocklist.GenericItem.currentID++;
         //this.name = name;
         //this.price = price;
         this.category = category;
     }
     /*
-        stocklist.GenericItem(String name, float price, stocklist.GenericItem analog){
-        this(name, price, stocklist.Category.GENERAL);
+        ru.itmo.stocklist.GenericItem(String name, float price, ru.itmo.stocklist.GenericItem analog){
+        this(name, price, ru.itmo.stocklist.Category.GENERAL);
         в этом конструкторе не присваем ID, так как это перегруженный конструктор, который берет за основу поля из
         родительского конструктора, в котором по умолчанию ID увеличивается на 1
-        ID = stocklist.GenericItem.currentID++;
+        ID = ru.itmo.stocklist.GenericItem.currentID++;
         this.analog = analog;
         }
         */
@@ -37,11 +37,11 @@ public class GenericItem implements Cloneable{
         this("Unnamed", 0f, Category.GENERAL);
         //в этом конструкторе не присваем ID, так как это перегруженный конструктор, который берет за основу поля из
         //родительского конструктора, в котором по умолчанию ID увеличивается на 1
-        //ID = stocklist.GenericItem.currentID++;
+        //ID = ru.itmo.stocklist.GenericItem.currentID++;
     }
 
     void printAll() {
-        System.out.printf("ID: %-10d Name: %-10s stocklist.Category: %-10s price: %-10.2f\n", ID, name, category, price);
+        System.out.printf("ID: %-10d Name: %-10s ru.itmo.stocklist.Category: %-10s price: %-10.2f\n", ID, name, category, price);
     }
 
     public String toString(){

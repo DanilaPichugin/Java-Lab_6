@@ -1,4 +1,4 @@
-package sync;
+package ru.itmo.sync;
 
 public class U1901Main {
     public static void main(String... args) {

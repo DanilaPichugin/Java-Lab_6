@@ -1,8 +1,4 @@
-package sync;
-
-import jdk.swing.interop.SwingInterOpUtils;
-
-import java.util.TreeMap;
+package ru.itmo.sync;
 
 public class U1901Bank {
     int intTo;
